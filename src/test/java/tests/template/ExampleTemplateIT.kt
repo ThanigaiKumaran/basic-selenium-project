@@ -22,7 +22,7 @@ class ExampleTemplateIT {
     @Test
     fun `template check if title and search are present`() {
         skrape {
-            url = "https://github.com"
+            url = "https://github.com/ThanigaiKumaran/"
             expect {
                 title {
                     toContain("GitHub")
